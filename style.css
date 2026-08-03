@@ -284,15 +284,16 @@ animation: fadeUp .8s ease forwards;
     padding: 16px 20px;
     border: none;
     border-radius: 12px;
-    background: #F4F7FB;
+    background: #F8FAFC;
     font-size: 18px;
     font-weight: 600;
     text-align: left;
     cursor: pointer;
-    transition: 3s;
+    transition: all 3s ease;
 }
 .skill-title: hover{
-    background: #E6F0FF;
+    background: #2563EB;
+    color: white;
 }
 .skill-content{
     display: none;
@@ -376,4 +377,26 @@ PROJECT BUTTONS
 .project-btn.outline:hover{
     background: #D97B7B;
     color: white;
+}
+/* About Section*/
+.about-content {
+    max-width: 850px;
+    margin: 0 auto;
+}
+.about-cotent p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.9;
+    color: #333
+}
+/* Contact Section*/
+#contact p{
+    font-size: 18px;
+    margin: 15px 0;
+    vertical-align: middle;
+}
+#contact i{
+    color: #2563EB;
+    magin-right: 10px;
+    font-size: 20px;
 }
